@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Fire Contest Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .form-container {
+      background: #fff;
+      width: 500px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      margin-top: 25px;
+      padding: 12px;
+      background: #ff3f3f;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e02d2d;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Free Fire Contest Registration</h2>
+
+    <label>Player Name</label>
+    <input type="text" placeholder="Enter your Free Fire name" />
+
+    <label>Free Fire UID</label>
+    <input type="number" placeholder="123456789" />
+
+    <label>Email Address</label>
+    <input type="email" placeholder="yourmail@example.com" />
+
+    <label>Mobile Number</label>
+    <input type="text" placeholder="9876543210" />
+
+    <label>Game Mode</label>
+    <select>
+      <option>Solo</option>
+      <option>Duo</option>
+      <option>Squad</option>
+    </select>
+
+    <label>Your Reason to Join</label>
+    <textarea rows="4" placeholder="Write something..."></textarea>
+
+    <button>Submit</button>
+  </div>
+</body>
+</html>
